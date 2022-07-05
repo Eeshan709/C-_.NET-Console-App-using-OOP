@@ -8,19 +8,15 @@ namespace OOP_Example{
     class Program{
         static void Main(string[] args)
         {
-            Creator youtuber = new Youtuber();
-            Creator programmer = new Programmer();
+            // take Youtuber and Programmer objects to List
+            List<Creator> creators = new List<Creator>() { new Youtuber() , new Programmer() };
 
-            Console.WriteLine("Youtuber");
-            Console.WriteLine();
-            youtuber.Create();
-
-            Console.WriteLine();
-            Console.WriteLine("------------------");
-
-            Console.WriteLine("Programmer");
-            Console.WriteLine();
-            programmer.Create();
+            foreach(var creator in creators) //accessing the list items
+            {
+                Console.WriteLine(creator.GetType().Name);
+                creator.Create(); //calling the same method with different implementation(Dynamic Polymorphism)
+                Console.WriteLine();
+            }
         }
     }
 }

@@ -2,7 +2,7 @@ public abstract class Creator{
     private int _creativityLevel = 100;
     private int _energy = 100;
 
-    public int CreativityLevel
+    public int CreativityLevel //public property to access private fields
     {
         get{
             return _creativityLevel;
@@ -17,7 +17,7 @@ public abstract class Creator{
         }
     }
 
-    public int Energy
+    public int Energy //public property to access private fields
     {
         get{
             return _energy;
@@ -32,5 +32,5 @@ public abstract class Creator{
         }
     }
 
-    public abstract void Create();
+    public abstract void Create(); // abstract method which is implemented in child classes
 }

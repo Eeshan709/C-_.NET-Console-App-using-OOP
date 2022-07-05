@@ -1,8 +1,8 @@
 using System;
 
-public class Programmer : Creator {
+public class Programmer : Creator { //Programmer class inheriting Creator class
 
-    public override void Create(){
+    public override void Create(){ //overriding abstract method and specifying it to current class
 
         if(base.CreativityLevel >=70 && base.Energy >= 75)
         {
@@ -13,14 +13,14 @@ public class Programmer : Creator {
         }
         else
         {
-            throw new Exception("Not enough creativity."); 
+            throw new Exception("Not enough creativity.");
         }
 
         
 
     }
 
-    private void BrainstormSolutions(){
+    private void BrainstormSolutions(){ //making methos private to achieve encapsulation
 
         base.CreativityLevel = base.CreativityLevel - 15;
         base.Energy = base.Energy - 10;

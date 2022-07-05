@@ -1,8 +1,8 @@
 using System;
 
-public class Youtuber : Creator {
+public class Youtuber : Creator { //Programmer class inheriting Creator class
 
-    public override void Create()
+    public override void Create() //overriding abstract method and specifying it to current class
     {
 
         if (base.CreativityLevel >= 60 && base.Energy >= 55)
@@ -20,7 +20,7 @@ public class Youtuber : Creator {
 
     }
 
-    private void BrainstormVideoIdeas(){
+    private void BrainstormVideoIdeas(){ //making methos private to achieve encapsulation
 
         base.CreativityLevel = base.CreativityLevel - 5;
         base.Energy = base.Energy - 5;
