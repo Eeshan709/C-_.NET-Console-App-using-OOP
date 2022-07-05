@@ -1,0 +1,15 @@
+C:\Eeshan\Practise\C#\OOP_Example\bin\Debug\net6.0\OOP_Example.exe
+C:\Eeshan\Practise\C#\OOP_Example\bin\Debug\net6.0\OOP_Example.deps.json
+C:\Eeshan\Practise\C#\OOP_Example\bin\Debug\net6.0\OOP_Example.runtimeconfig.json
+C:\Eeshan\Practise\C#\OOP_Example\bin\Debug\net6.0\OOP_Example.dll
+C:\Eeshan\Practise\C#\OOP_Example\bin\Debug\net6.0\OOP_Example.pdb
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.csproj.AssemblyReference.cache
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.AssemblyInfoInputs.cache
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.AssemblyInfo.cs
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.csproj.CoreCompileInputs.cache
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.dll
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\refint\OOP_Example.dll
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.pdb
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\OOP_Example.genruntimeconfig.cache
+C:\Eeshan\Practise\C#\OOP_Example\obj\Debug\net6.0\ref\OOP_Example.dll

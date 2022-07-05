@@ -4,6 +4,20 @@ public class Programmer : Creator {
 
     public override void Create(){
 
+        if(base.CreativityLevel >=70 && base.Energy >= 75)
+        {
+            this.BrainstormSolutions();
+            this.PickMostOptimalSolution();
+            this.WriteCode();
+            this.TestCode();
+        }
+        else
+        {
+            throw new Exception("Not enough creativity."); 
+        }
+
+        
+
     }
 
     private void BrainstormSolutions(){
